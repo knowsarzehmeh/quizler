@@ -72,7 +72,7 @@ class QuizBrain {
     }
   }
 
-  bool isCompleted() => _currentQuestion == _questions.length - 1;
+  bool get isCompleted => _currentQuestion == _questions.length - 1;
 
   void reset() => _currentQuestion = 0;
 }
